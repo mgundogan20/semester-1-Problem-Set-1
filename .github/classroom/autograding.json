@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "a-1",
+      "setup": "",
+      "run": "python3 ps1a.py",
+      "input": "5000\r\n0.18\r\n120000",
+      "output": "Number of months: 86",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "a-2",
+      "setup": "",
+      "run": "python3 ps1a.py",
+      "input": "5000\r\n0.24\r\n120000",
+      "output": "Number of months: 70",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "a-3",
+      "setup": "",
+      "run": "python3 ps1a.py",
+      "input": "8000\r\n0.18\r\n120000",
+      "output": "Number of months: 61",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "a-4",
+      "setup": "",
+      "run": "python3 ps1a.py",
+      "input": "25000\r\n0.40\r\n999999",
+      "output": "Number of months: 70",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "a-5",
+      "setup": "",
+      "run": "python3 ps1a.py",
+      "input": "178000\r\n0.70\r\n9999999",
+      "output": "Number of months: 60",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "b-1",
+      "setup": "",
+      "run": "python3 ps1b.py",
+      "input": "5000\r\n0.12\r\n25000\r\n0.06",
+      "output": "Number of months: 41",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "b-2",
+      "setup": "",
+      "run": "python3 ps1b.py",
+      "input": "5000\r\n0.12\r\n120000\r\n0.03",
+      "output": "Number of months: 134",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "b-3",
+      "setup": "",
+      "run": "python3 ps1b.py",
+      "input": "9999\r\n0.23\r\n450000\r\n0.1",
+      "output": "Number of months: 321",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "b-4",
+      "setup": "",
+      "run": "python3 ps1b.py",
+      "input": "99999\r\n0.47\r\n2700000\r\n0.05",
+      "output": "Number of months: 54",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "b-5",
+      "setup": "",
+      "run": "python3 ps1b.py",
+      "input": "248000\r\n0.75\r\n12800000\r\n0.02",
+      "output": "Number of months: 56",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "c-1",
+      "setup": "",
+      "run": "python3 ps1c.py",
+      "input": "5000\r\n0.12\r\n148000\r\n0.1\r\n0.1",
+      "output": "Number of months: 128",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "c-2",
+      "setup": "",
+      "run": "python3 ps1c.py",
+      "input": "7500\r\n0.12\r\n216000\r\n0.04\r\n0.22",
+      "output": "Number of months: 68",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "c-3",
+      "setup": "",
+      "run": "python3 ps1c.py",
+      "input": "75000\r\n0.05\r\n712000\r\n0.01\r\n0.42",
+      "output": "Number of months: 44",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "c-4",
+      "setup": "",
+      "run": "python3 ps1c.py",
+      "input": "214000\r\n0.17\r\n4650000\r\n0.04\r\n0.12",
+      "output": "Number of months: 65",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "c-5",
+      "setup": "",
+      "run": "python3 ps1c.py",
+      "input": "500000\r\n0.23\r\n17432000\r\n0.02\r\n0.08",
+      "output": "Number of months: 76",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "d-1",
+      "setup": "",
+      "run": "python3 ps1d.py",
+      "input": "5000\r\n112000\r\n0.01\r\n0.22",
+      "output": "(.|\\n)*Best (saving|savings) rate: 0.617\\nSteps in bisection search: [45678]",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "d-2",
+      "setup": "",
+      "run": "python3 ps1d.py",
+      "input": "9500\r\n112000\r\n0.08\r\n0.12",
+      "output": "(.|\\n)*Best (saving|savings) rate: 0.398\\nSteps in bisection search: [45678]",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "d-3",
+      "setup": "",
+      "run": "python3 ps1d.py",
+      "input": "9500\r\n248000\r\n0.08\r\n0.09",
+      "output": "(.|\\n)*Best (saving|savings) rate: 0.922\\nSteps in bisection search: [345678]",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "d-4",
+      "setup": "",
+      "run": "python3 ps1d.py",
+      "input": "22222\r\n3810000\r\n0.1\r\n0.99",
+      "output": "It is not possible to buy the car in two years",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "d-5",
+      "setup": "",
+      "run": "python3 ps1d.py",
+      "input": "2317000\r\n189100000\r\n0.01\r\n0.4",
+      "output": "It is not possible to buy the car in two years",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    }
+  ]
+}
